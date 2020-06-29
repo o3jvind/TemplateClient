@@ -18,7 +18,7 @@ Begin WebPage PlayOut
    LockVertical    =   False
    MinHeight       =   720
    MinWidth        =   1280
-   Style           =   "None"
+   Style           =   "38684671"
    TabOrder        =   0
    Title           =   "Playout"
    Top             =   0
@@ -63,26 +63,47 @@ Begin WebPage PlayOut
       Visible         =   False
       Width           =   1280
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebAnimator LabelAnimator
       Cursor          =   0
       Enabled         =   True
-      Height          =   "32"
+      Hardware2DSupported=   False
+      Hardware3DSupported=   False
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   "1.6e+2"
+      KeyFrameTime    =   0.0
+      Left            =   0.0
+      LockBottom      =   False
       LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   False
+      LockRight       =   False
+      LockTop         =   False
+      LockVertical    =   False
       Motion          =   3
       Scope           =   0
       Style           =   "0"
       TabOrder        =   -1
-      Top             =   "1.6e+2"
+      Top             =   0.0
       VerticalCenter  =   0
-      Width           =   "32"
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage

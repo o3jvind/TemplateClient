@@ -18,7 +18,7 @@ Begin WebPage Client
    LockVertical    =   False
    MinHeight       =   720
    MinWidth        =   1280
-   Style           =   "None"
+   Style           =   "38684671"
    TabOrder        =   0
    Title           =   "Client"
    Top             =   0
@@ -61,7 +61,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton RedButton
       AutoDisable     =   False
@@ -88,7 +95,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton HideButton
       AutoDisable     =   False
@@ -115,7 +129,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton ShowButton
       AutoDisable     =   False
@@ -142,7 +163,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebTextField LabelTextField
       AutoCapitalize  =   True
@@ -165,6 +193,7 @@ Begin WebPage Client
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Password        =   False
       ReadOnly        =   False
       Scope           =   0
       Style           =   "0"
@@ -177,7 +206,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   212
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton UpdateTextButton
       AutoDisable     =   False
@@ -204,7 +240,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton MoveButton
       AutoDisable     =   False
@@ -231,7 +274,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebTextField IPTextField
       AutoCapitalize  =   True
@@ -254,6 +304,7 @@ Begin WebPage Client
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Password        =   False
       ReadOnly        =   False
       Scope           =   2
       Style           =   "0"
@@ -266,7 +317,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebTextField PortTextField
       AutoCapitalize  =   True
@@ -289,6 +347,7 @@ Begin WebPage Client
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Password        =   False
       ReadOnly        =   False
       Scope           =   2
       Style           =   "0"
@@ -301,7 +360,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton ConnectButton
       AutoDisable     =   False
@@ -328,7 +394,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebTextArea StatusTextArea
       CueText         =   ""
@@ -359,7 +432,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   212
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage
