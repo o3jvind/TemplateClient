@@ -468,7 +468,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   212
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebLabel ClientInfoLabel
       Cursor          =   1
@@ -497,9 +504,16 @@ Begin WebPage Client
       Visible         =   True
       Width           =   212
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
-   Begin WebTextField TextField1
+   Begin WebTextField ClientTextField
       AutoCapitalize  =   True
       AutoComplete    =   True
       AutoCorrect     =   True
@@ -520,11 +534,12 @@ Begin WebPage Client
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Password        =   False
       ReadOnly        =   False
       Scope           =   2
       Style           =   "0"
       TabOrder        =   10
-      Text            =   "http://127.0.0.1:8086"
+      Text            =   "http://127.0.0.1:8082"
       TextAlign       =   0
       Top             =   137
       Type            =   5
@@ -532,7 +547,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   212
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
    Begin WebButton LoadTemplateButton
       AutoDisable     =   False
@@ -559,7 +581,14 @@ Begin WebPage Client
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage
@@ -651,6 +680,13 @@ End
 		    StatusTextarea.Text =  "Connected to CasparCG @ " + App.CasparCGConnector.Address + " / " + Str(cPort)
 		    
 		  End if
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events LoadTemplateButton
+	#tag Event
+		Sub Action()
+		  App.CasparCGConnector.Write("PLAY 1-10 [HTML] " + """" + ClientTextField.Text + """" + " CUT 0 Linear RIGHT" + Chr(13) + Chr(10))
 		End Sub
 	#tag EndEvent
 #tag EndEvents
