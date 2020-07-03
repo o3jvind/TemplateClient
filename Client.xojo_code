@@ -39,7 +39,7 @@ Begin WebPage Client
    Begin WebButton BlueButton
       AutoDisable     =   False
       Caption         =   "Blue"
-      Cursor          =   0
+      Cursor          =   1
       Enabled         =   True
       Height          =   22
       HelpTag         =   ""
@@ -56,7 +56,7 @@ Begin WebPage Client
       Scope           =   0
       Style           =   "0"
       TabOrder        =   0
-      Top             =   200
+      Top             =   366
       VerticalCenter  =   0
       Visible         =   True
       Width           =   100
@@ -73,7 +73,7 @@ Begin WebPage Client
    Begin WebButton RedButton
       AutoDisable     =   False
       Caption         =   "Red"
-      Cursor          =   0
+      Cursor          =   1
       Enabled         =   True
       Height          =   22
       HelpTag         =   ""
@@ -90,7 +90,7 @@ Begin WebPage Client
       Scope           =   0
       Style           =   "0"
       TabOrder        =   0
-      Top             =   200
+      Top             =   366
       VerticalCenter  =   0
       Visible         =   True
       Width           =   100
@@ -107,7 +107,7 @@ Begin WebPage Client
    Begin WebButton HideButton
       AutoDisable     =   False
       Caption         =   "Hide"
-      Cursor          =   0
+      Cursor          =   1
       Enabled         =   True
       Height          =   22
       HelpTag         =   ""
@@ -124,7 +124,7 @@ Begin WebPage Client
       Scope           =   0
       Style           =   "0"
       TabOrder        =   1
-      Top             =   160
+      Top             =   400
       VerticalCenter  =   0
       Visible         =   True
       Width           =   100
@@ -141,13 +141,13 @@ Begin WebPage Client
    Begin WebButton ShowButton
       AutoDisable     =   False
       Caption         =   "Show"
-      Cursor          =   0
+      Cursor          =   1
       Enabled         =   True
       Height          =   22
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   20
+      Left            =   132
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -158,7 +158,7 @@ Begin WebPage Client
       Scope           =   0
       Style           =   "0"
       TabOrder        =   1
-      Top             =   160
+      Top             =   326
       VerticalCenter  =   0
       Visible         =   True
       Width           =   100
@@ -200,7 +200,7 @@ Begin WebPage Client
       TabOrder        =   2
       Text            =   ""
       TextAlign       =   0
-      Top             =   234
+      Top             =   292
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -218,7 +218,7 @@ Begin WebPage Client
    Begin WebButton UpdateTextButton
       AutoDisable     =   False
       Caption         =   "Update Text"
-      Cursor          =   0
+      Cursor          =   1
       Enabled         =   True
       Height          =   22
       HelpTag         =   ""
@@ -235,7 +235,7 @@ Begin WebPage Client
       Scope           =   0
       Style           =   "0"
       TabOrder        =   3
-      Top             =   268
+      Top             =   326
       VerticalCenter  =   0
       Visible         =   True
       Width           =   100
@@ -252,13 +252,13 @@ Begin WebPage Client
    Begin WebButton MoveButton
       AutoDisable     =   False
       Caption         =   "Move Text"
-      Cursor          =   0
+      Cursor          =   1
       Enabled         =   True
       Height          =   22
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   132
+      Left            =   20
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -269,7 +269,7 @@ Begin WebPage Client
       Scope           =   0
       Style           =   "0"
       TabOrder        =   4
-      Top             =   268
+      Top             =   400
       VerticalCenter  =   0
       Visible         =   True
       Width           =   100
@@ -311,7 +311,7 @@ Begin WebPage Client
       TabOrder        =   5
       Text            =   "127.0.0.1"
       TextAlign       =   0
-      Top             =   20
+      Top             =   44
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -354,7 +354,7 @@ Begin WebPage Client
       TabOrder        =   6
       Text            =   "5250"
       TextAlign       =   0
-      Top             =   20
+      Top             =   44
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -372,7 +372,7 @@ Begin WebPage Client
    Begin WebButton ConnectButton
       AutoDisable     =   False
       Caption         =   "Connect"
-      Cursor          =   0
+      Cursor          =   1
       Enabled         =   True
       Height          =   22
       HelpTag         =   ""
@@ -389,7 +389,7 @@ Begin WebPage Client
       Scope           =   2
       Style           =   "0"
       TabOrder        =   7
-      Top             =   54
+      Top             =   78
       VerticalCenter  =   0
       Visible         =   True
       Width           =   100
@@ -427,7 +427,7 @@ Begin WebPage Client
       TabOrder        =   8
       Text            =   ""
       TextAlign       =   0
-      Top             =   88
+      Top             =   212
       VerticalCenter  =   0
       Visible         =   True
       Width           =   212
@@ -440,6 +440,126 @@ Begin WebPage Client
       _OfficialControl=   False
       _OpenEventFired =   False
       _VerticalPercent=   0.0
+   End
+   Begin WebLabel CasparCGInfoLabel
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   22
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   2
+      Style           =   "0"
+      TabOrder        =   9
+      Text            =   "CasparCG Server, IP & Port"
+      TextAlign       =   0
+      Top             =   20
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   212
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WebLabel ClientInfoLabel
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   22
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   2
+      Style           =   "0"
+      TabOrder        =   9
+      Text            =   "Template/Client URL"
+      TextAlign       =   0
+      Top             =   112
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   212
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WebTextField TextField1
+      AutoCapitalize  =   True
+      AutoComplete    =   True
+      AutoCorrect     =   True
+      CueText         =   ""
+      Cursor          =   0
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   22
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   20
+      LimitText       =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      ReadOnly        =   False
+      Scope           =   2
+      Style           =   "0"
+      TabOrder        =   10
+      Text            =   "http://127.0.0.1:8086"
+      TextAlign       =   0
+      Top             =   137
+      Type            =   5
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   212
+      ZIndex          =   1
+      _NeedsRendering =   True
+   End
+   Begin WebButton LoadTemplateButton
+      AutoDisable     =   False
+      Caption         =   "Load HTML"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   22
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "0"
+      TabOrder        =   11
+      Top             =   171
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   100
+      ZIndex          =   1
+      _NeedsRendering =   True
    End
 End
 #tag EndWebPage

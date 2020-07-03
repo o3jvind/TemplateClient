@@ -81,7 +81,6 @@ Begin WebPage PlayOut
       HorizontalCenter=   0
       Index           =   -2147483648
       KeyFrameTime    =   0.0
-      Left            =   0.0
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -93,7 +92,6 @@ Begin WebPage PlayOut
       Scope           =   0
       Style           =   "0"
       TabOrder        =   -1
-      Top             =   0.0
       VerticalCenter  =   0
       ZIndex          =   1
       _DeclareLineRendered=   False
@@ -122,6 +120,7 @@ End
 		  Me.LabelAnimator.Move(Me.CasparLabel, Me.CasparLabel.Left, Me.CasparLabel.Top + 300, 1)
 		  Me.LabelAnimator.AddKeyFrame(1)
 		  Me.LabelAnimator.Move(Me.CasparLabel, Me.CasparLabel.Left, Me.CasparLabel.Top - 300, 1)
+		  Me.LabelAnimator.RotateZ(Me.CasparLabel, 360, 0.5)
 		  Me.LabelAnimator.Play
 		End Sub
 	#tag EndMethod
